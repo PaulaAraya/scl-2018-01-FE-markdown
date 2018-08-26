@@ -1,28 +1,32 @@
 {
-  "name": "scl-2018-01-fe-markdown",
-  "version": "0.0.1",
-  "description": "libreria que lee y analiza archivos en formato Markdown",
+  "name": "markdown",
+  "version": "1.0.0",
+  "description": "## Preámbulo",
   "main": "index.js",
   "directories": {
     "test": "test"
   },
   "scripts": {
-    "test": "mocha"
+    "pretest": "eslint --ignore-path .gitignore .",
+    "test": "jest"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/PaulaAraya/scl-2018-01-FE-markdown.git"
   },
   "keywords": [
-    "libreria",
-    "node.js",
-    "filter",
     "markdown"
   ],
-  "author": "Paula Araya",
+  "author": "Paula Araya Williams",
   "license": "ISC",
+  "bin": {
+    "md-links": "./cli.js"
+  },
   "bugs": {
     "url": "https://github.com/PaulaAraya/scl-2018-01-FE-markdown/issues"
   },
-  "homepage": "https://github.com/PaulaAraya/scl-2018-01-FE-markdown#readme"
+  "homepage": "https://github.com/PaulaAraya/scl-2018-01-FE-markdown#readme",
+  "devDependencies": {
+    "jest": "^23.5.0"
+  }
 }
