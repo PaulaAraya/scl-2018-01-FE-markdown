@@ -8,9 +8,9 @@ function markdownLinks() {
   const [, , ...userFile] = process.argv; 
   let relativePath = userFile[0]; 
   // ubico el directorio actual del usuario 
-  let absPathUser = process.cwd(relativePath);
-  // concateno directorio actual y el nombre archivo ingresado
-  let concatPath = path.join(absPathUser, relativePath); 
+  let pathUser = process.cwd(relativePath);
+  // concateno directorio actual y el nombre de archivo ingresado
+  let concatPath = path.join(pathUser, relativePath); 
   // uso archivo actual como parametro 
   
 };
