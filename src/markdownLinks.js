@@ -17,4 +17,3 @@ function markdownLinks() {
 module.exports = {
   markdownLinks
 };
-

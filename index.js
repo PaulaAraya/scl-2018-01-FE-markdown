@@ -1,6 +1,5 @@
 #!/usr/bin/env node
 // requireds node
-
 const path = require('path');
 const markdownLinks = require('./src/markdownLinks').markdownLinks;
 
@@ -8,11 +7,15 @@ const [, , ...userFile] = process.argv; // operador de propagación para que usu
 
 let relativePath = userFile[0]; // es index porque tomo el valor que esta ingresando el usuario
 
-// valido que solo se ingrese el nombre del archivo y no su ruta
+// valido que el usuario solo se ingrese el nombre del archivo y no su ruta absoluta
 if (path.isAbsolute(relativePath)) {
-  console.log('esta ruta es absoluta, ingrese solamente el nombre del archivo');
+  console.log('Esta ruta es absoluta, ingrese solamente el nombre del archivo');
 } else {
-  markdownLinks(); // Ejecuto función
+  if (path.extname(relativePath).toLowerCase() === '.md') {
+    markdownLinks(); // Ejecuto función
+  } else {
+    console.log('Ingrese solamente archivo con formato .md');
+  }
 }
 /*
 
