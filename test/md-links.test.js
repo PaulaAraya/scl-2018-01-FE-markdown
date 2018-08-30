@@ -11,3 +11,13 @@ describe('markdownLinkExtractor debe extraer links', function() {
     expect(links).toEqual([]);
   });
 });
+/*
+describe('leer un archivo', ()=> {
+  test('')
+
+  expect.assertion(n) n es el numero de expect que tiene que esperar de una promesa
+  y de debe retornar return para avisar ajest que  se testea algo asincrono
+
+  callbacl usa done como paramtero
+  
+});*/
