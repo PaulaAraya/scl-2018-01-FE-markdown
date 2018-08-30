@@ -1,0 +1,21 @@
+#!/usr/bin/env node
+const path = require('path');
+
+
+
+// funcion ubica archivo y trae la info de links
+function markdownLinks() {
+  const [, , ...userFile] = process.argv; 
+  let relativePath = userFile[0]; 
+  // ubico el directorio actual del usuario 
+  let absPathUser = process.cwd(relativePath);
+  // concateno directorio actual y el nombre archivo ingresado
+  let concatPath = path.join(absPathUser, relativePath); 
+  // uso archivo actual como parametro 
+  
+};
+
+module.exports = {
+  markdownLinks
+};
+
