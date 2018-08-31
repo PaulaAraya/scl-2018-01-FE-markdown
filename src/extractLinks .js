@@ -33,7 +33,7 @@ function extractLinks(filePath) {
       });
       // Arreglo vacio de promise gurada valores
       Promise.all(infoLinks).then(() => { // Retorno todas las promesas de la función
-        return resolve(links)
+        resolve(links);
       }).catch((err) => {
         console.error(err);
       });
