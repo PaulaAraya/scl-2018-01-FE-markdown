@@ -6,12 +6,15 @@ const extractLinks = require('./extractLinks ').extractLinks;
 function markdownLinks() {
   const [, , ...userFile] = process.argv;
   let writeFileUser = userFile[0];
-  // concateno directorio actual donde se esta ejecutando desde la consola y el nombre de archivo ingresado
-  let concatPath = path.join(process.cwd(), writeFileUser);
-  // uso archivo actual  como parametro y retorno promesas 
-  extractLinks(concatPath).then((values) => { // lee el archivo y retorna las promesas
-    console.log(values);
-  });
+  if (writeFileUser < userFile[1]) {
+    console.log('Debe ingresar solo un archivo .md');
+  } else {
+    let concatPath = path.join(process.cwd(), writeFileUser); // concateno directorio actual donde se esta ejecutando desde la consola y el nombre de archivo ingresado
+    // uso archivo actual  como parametro y retorno promesas 
+    extractLinks(concatPath).then((values) => { // lee el archivo y retorna las promesas
+      console.log(values);
+    });
+  }
 };
 
 module.exports = {
