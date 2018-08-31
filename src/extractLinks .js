@@ -12,7 +12,6 @@ function extractLinks(filePath) {
         return reject(error);
       }
       // console.log('esto dice data jojojo ' + data);
-
       let links = markdownLinkExtractor(data);
       let infoLinks = [];
       // Iteras sobre el arreglo de links
