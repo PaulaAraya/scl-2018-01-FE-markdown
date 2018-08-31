@@ -6,8 +6,9 @@ const extractLinks = require('./extractLinks ').extractLinks;
 function markdownLinks() {
   const [, , ...userFile] = process.argv;
   let writeFileUser = userFile[0];
+  // Valida que no se ingrese más de un archivo o string
   if (writeFileUser < userFile[1]) {
-    console.log('Debe ingresar solo un archivo .md');
+    console.log('No debe ingresar más de un archivo .md');
   } else {
     let concatPath = path.join(process.cwd(), writeFileUser); // concateno directorio actual donde se esta ejecutando desde la consola y el nombre de archivo ingresado
     // uso archivo actual  como parametro y retorno promesas 
