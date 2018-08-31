@@ -18,27 +18,3 @@ if (path.isAbsolute(relativePath)) {
     console.log('Ingrese solamente archivo con formato .md');
   }
 }
-
-/*
-
-*/
-
-/*
- 
-  // ruta archivo path.join(process.cdw())
-};
-
-console.log(process.cwd());
-
-/* 
-
-
-/*
- * HACKER EDITION
-
-mdLinks('./some/dir')
-  .then(links => {
-    // => [{ href, text, file }]
-  })
-  .catch(console.error);  
-  */
