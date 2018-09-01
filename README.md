@@ -6,7 +6,7 @@ _Ahorra tiempo a la hora de comprobar enlaces rotos dentro de tus archivos Markd
 
 ## Version 📌
 
-_Actualmente este proyecto se encuentra en la versión 1.0.0 la cual valida los enlaces. Aún seguimos trabajando para implementar más opciones de validación._
+_Actualmente este proyecto se encuentra en la versión 1.0.0 la cual valida los enlaces. Aún seguimos trabajando para implementar más opciones de validación. Puedes encontrar [Markdown Links](https://www.npmjs.com/package/pau-mdlinks) publicado en npm_
 
 
 ### Pre-requisitos 📋
