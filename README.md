@@ -2,7 +2,7 @@
 
 ## Comenzando 🚀
 
-_Ahorra tiempo a la hora de comprobar enlaces rotos dentro de tus archivos Markdown con Md-Links. Esta librería analiza archivos .md verificando el estatus de los enlaces que contiene. Finalmente en la consola dará un reporte con una lista de todos los links indicando su estado actual (ok o error) junto al numero de línea donde está alojado y el texto que contiene el link._
+_Ahorra tiempo a la hora de comprobar enlaces rotos dentro de tus archivos Markdown con Md-Links. Esta librería hecha con JavaScript trabaja con NodeJs desde la terminal analizando archivos .md y verificando el estatus de sus enlaces. Finalmente la terminal dará un reporte con una lista de todos los links indicando su estado actual (ok o error) junto al numero de línea donde está alojado y el texto que contiene el link._
 
 ## Version 📌
 
@@ -15,7 +15,7 @@ _Debes tener instalado previamente [NodeJs](https://nodejs.org/en/) en tu comput
 
 ### Instalación 🔧
 
-_Lo primero que debemos hacer es instalar nuestra líbreria con :._
+_Lo primero que debemos hacer es instalar nuestra librería con :._
 
 ```
 
