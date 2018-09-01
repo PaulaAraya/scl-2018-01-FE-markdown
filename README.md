@@ -57,7 +57,7 @@ Status OK 200
 _Link Roto_
 
 ```
-Link https://es.wikipedia.org/wiki/Markdownjhfhvf´ckf,pv
+Link https://es.wikipedia.org/wiki/Markdownjhfhvfckfpv
 Line 12
 Text Markdown
 File /Users/Documents/LABORATORIA/scl-2018-01-FE-markdown/readme.md
@@ -80,6 +80,6 @@ _Líbrerias utilizadas en este proyecto_
 
 ## Planificación del proyecto 
 
-_Board con el backlog de organización para la implementación de la líbreria_
-* [Tablero GitHub](hhttps://github.com/PaulaAraya/scl-2018-01-FE-markdown/projects/1) 
+
+* [GitHub](https://github.com/PaulaAraya/scl-2018-01-FE-markdown/projects/1)- Board con el backlog de organización para la implementación de la líbreria
 
