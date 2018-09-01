@@ -13,10 +13,10 @@ function markdownLinks() {
   extractLinks(concatPath).then((values) => { // lee el archivo y retorna las promesas
     values.forEach(link => {
       let InfoLink = `
-             File ${colors.green(link.file)} 
-             Link ${colors.cyan(link.href)}
-             Text ${colors.white(link.text)}  
-             Status ${colors.magenta(link.status)} 
+File ${colors.green(link.file)} 
+Link ${colors.cyan(link.href)}
+Text ${colors.white(link.text)}  
+Status ${colors.magenta(link.status)} 
       `;
       console.log(InfoLink);
     });
